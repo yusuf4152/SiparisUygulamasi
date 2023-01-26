@@ -7,7 +7,10 @@ org\yusufislamdemir\Main.class
 org\yusufislamdemir\repository\CustomerRepository.class
 org\yusufislamdemir\repository\InvoiceRepository.class
 org\yusufislamdemir\entity\Customer.class
+org\yusufislamdemir\repository\CompanyRepository.class
+org\yusufislamdemir\entity\Company.class
 org\yusufislamdemir\entity\Order.class
 org\yusufislamdemir\entity\BaseEntity.class
 org\yusufislamdemir\repository\OrderRepository.class
+org\yusufislamdemir\service\CompanyService.class
 org\yusufislamdemir\service\CustomerService.class

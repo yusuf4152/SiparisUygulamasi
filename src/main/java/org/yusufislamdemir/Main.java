@@ -41,6 +41,6 @@ public class Main {
         System.out.println("sistemdeki 1500 tl üstü faturaların ortalaması: " + invoiceService.getAverageOfAmountOver1500());
         System.out.println("sistemdeki 500 tl altı faturalara sahip olan müşteriler: "+invoiceService.getCustomerNameByInvoiceAmountLessThan500());
         System.out.println("haziranda kayıt olan müşterilerin toplam faturaları:"+ invoiceService.getTotalInvoiceRegisteredByJuneOfCustomer());
-        System.out.println("haziran ayında 750 tl altı fatularsı olan firmaların sektörleri: "+ companyService.getCompanySectorByInvoiceAmountLessThan750());
+        System.out.println("haziran ayında 750 tl altı faturaları olan firmaların sektörleri: "+ companyService.getCompanySectorByInvoiceAmountLessThan750AndMonthOfJune());
     }
 }
