@@ -79,7 +79,7 @@ public class InvoiceService implements BaseService {
     protected HashSet<String> getCompanySectorByInvoiceAmountLessThan750AndMonthOfJune() {
         HashSet<String> sectors = new HashSet<>();
         InvoiceRepository.inVoices.stream()
-                .filter(inVoice -> inVoice.getAmount() < 750 && inVoice.getDateTime().getMonth() == Month.JANUARY)
+                .filter(inVoice -> inVoice.getAmount() < 750 && inVoice.getDateTime().getMonth() == Month.JUNE)
                 .map(inVoice -> inVoice.getCompany().getSector())
                 .forEach(sectors::add);
         return sectors;
