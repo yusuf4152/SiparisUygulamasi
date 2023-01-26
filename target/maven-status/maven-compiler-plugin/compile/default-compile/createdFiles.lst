@@ -1,0 +1,13 @@
+org\yusufislamdemir\service\InvoiceService.class
+org\yusufislamdemir\entity\BaseInterface.class
+org\yusufislamdemir\entity\InVoice.class
+org\yusufislamdemir\service\OrderService.class
+org\yusufislamdemir\service\BaseService.class
+org\yusufislamdemir\Main.class
+org\yusufislamdemir\repository\CustomerRepository.class
+org\yusufislamdemir\repository\InvoiceRepository.class
+org\yusufislamdemir\entity\Customer.class
+org\yusufislamdemir\entity\Order.class
+org\yusufislamdemir\entity\BaseEntity.class
+org\yusufislamdemir\repository\OrderRepository.class
+org\yusufislamdemir\service\CustomerService.class
