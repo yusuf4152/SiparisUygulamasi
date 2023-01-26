@@ -23,7 +23,7 @@ public class Main {
         Customer customer3 = new Customer(3, "Ceyhun", "demir", LocalDate.of(2020, 6, 12));
         Company company= new Company(1," a sirketi","yazılım");
         Order order1 = new Order(1, "siparis 1", customer1,250,company);
-        Order order2= new Order(2,"siapris2",customer2,500,company);
+        Order order2= new Order(2,"siapris2",customer2,1600,company);
         Order order3= new Order(3,"siparis3",customer3,400,company);
         customerService.add(customer1);
         customerService.add(customer2);

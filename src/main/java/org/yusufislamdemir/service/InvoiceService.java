@@ -67,6 +67,7 @@ public class InvoiceService implements BaseService {
     public long getTotalInvoiceRegisteredByJuneOfCustomer() {
         List<Customer> customers = customerService.getCustomerByRegisteredInJune();
         long total = 0;
+
         for (Customer customer : customers) {
             total += InvoiceRepository.inVoices.stream()
                     .filter(inVoice -> inVoice.getOrder().getCustomer() == customer)
@@ -75,6 +76,7 @@ public class InvoiceService implements BaseService {
         }
         return total;
     }
+
 
     protected HashSet<String> getCompanySectorByInvoiceAmountLessThan750AndMonthOfJune() {
         HashSet<String> sectors = new HashSet<>();
